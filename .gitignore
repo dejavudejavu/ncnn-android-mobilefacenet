@@ -1,0 +1,10 @@
+/.idea
+/.gradle
+/app/release
+/app/src/main/assets/synset_words.txt
+/app/src/main/assets/squeezenet_v1.1.bin
+/app/src/main/assets/squeezenet_v1.1.param.bin
+/app/src/main/jni/opencv-mobile-2.4.13.7-android
+/app/src/main/jni/ncnn-android-vulkan
+/app/.cxx
+/app/build
