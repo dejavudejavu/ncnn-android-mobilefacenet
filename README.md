@@ -24,10 +24,7 @@ https://github.com/Tencent/ncnn/releases
 
 检测相同的图片,GPU耗时比CPU更长,根据[官方解释](https://github.com/Tencent/ncnn/wiki/FAQ-ncnn-vulkan),这是因为很多针对GPU的优化还没有完成（例如winograd卷积，算子融合，fp16存储和算术等），而且arm架构下的CPU优化已经做够充分，所以CPU下更快。
 
-相同（cpu）:<br> 
-![相同（cpu）](./imgs/cpu_same.jpg#pic_center)<br>
-相同（gpu）:<br> 
-![相同（gpu）](./imgs/gpu_same.jpg#pic_center)<br>
-不同（cpu）:<br> 
-![不同（cpu）](./imgs/cpu_different.jpg#pic_center)<br>
+不同（cpu）| 相同（gpu）| 相同（cpu）:<br> 
+![相同（cpu）](./imgs/result.jpg#pic_center)<br>
+
 
